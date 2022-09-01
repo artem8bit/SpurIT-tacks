@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*::after, *:before{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 1920px;
+    height: 694px;
+    background: #F6F6F6;
+}
+
+h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-bottom: 16px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2F2F2F;
+}
+
+.products__list{
+    background-color: #FFF ;
+    box-shadow: 0px 0px 45px -4px rgba(0, 0, 0, 0.18);
+    border-radius: 12px;
+    width: 380px;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+}
+.card__wrapper{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.list-item__image{
+    background: url(image.png) no-repeat ;
+    background-size: cover ;
+    height: 210px;
+
+    
+    
+}
+
+.list-item__title{
+    
+    padding: 24px;
+}
+
+.list-item__sticker_new{
+    margin:0 0 0 16px;
+    color: #2F2F2F;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 16px;
+    border-radius: 8px;
+    background: #FDCFF3;
+}
+
+.list-item__sticker_last{
+    margin:0 0 0 16px;
+    color: #2F2F2F;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 16px;
+    border-radius: 8px;
+    background: #FFCF56;
+}
+
+.toast__wrapper{
+    padding-top: 16px;
+}
+
+.list-item__description{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Mine Shaft */
+
+    color: #2F2F2F;
+}
+
+.list-item__button{
+    position: absolute;
+    height: 48px;
+    width: 332px;
+    text-align: center;
+    border: 2px solid #42940F;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 auto;
+    color: #42940F;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    bottom: 24px;
+}
+
+.list-item__button--disabled{
+    background: #4E4E4E;
+/* Tundora */
+    position: absolute;
+    height: 48px;
+    width: 332px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    bottom: 24px;
+    border: 1px solid #4E4E4E;
+    color: #fff;
+}
+
+
+.list-item__button:hover{
+    background: #42940F;
+    /* La Palma */
+    
+    border: 2px solid #42940F;
+    color: #fff;
+}
+
+.list-item__button:active{
+    background: #1F5200;
+/* Verdun Green */
+
+    border: 2px solid #1F5200;
+    color: #fff;
+}
